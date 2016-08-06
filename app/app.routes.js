@@ -20,6 +20,11 @@ exports.routes = [
         path: '',
         redirectTo: '/dashboard',
         pathMatch: 'full'
+    },
+    {
+        path: '',
+        redirectTo: '/dashboard2',
+        pathMatch: 'full'
     }
 ];
 exports.appRouterProviders = [

@@ -20,6 +20,11 @@ export const routes: RouterConfig = [
         path: '',
         redirectTo: '/dashboard',
         pathMatch: 'full'
+    },
+    {
+        path: '',
+        redirectTo: '/dashboard2',
+        pathMatch: 'full'
     }
 ];
 
